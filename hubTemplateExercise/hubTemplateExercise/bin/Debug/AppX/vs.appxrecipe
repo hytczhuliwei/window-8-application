@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STUDENT</Machine>
+    <WindowsUser>just</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>da1ecd18-00bc-445c-ad09-53531868f274</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B0BD466A698B6D00C98BDFD05C40A7E0E7042C87EC65024C389DBCEA2BEEF97F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>da1ecd18-00bc-445c-ad09-53531868f274_1.0.0.0_neutral__scs3de4092tee</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>da1ecd18-00bc-445c-ad09-53531868f274_scs3de4092tee!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>da1ecd18-00bc-445c-ad09-53531868f274</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=just</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-24T07:13:39.380</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\hubTemplateExercise.exe">
+      <PackagePath>hubTemplateExercise.exe</PackagePath>
+      <Modified>2014-09-24T10:42:24.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Bread.jpg">
+      <PackagePath>Images\Bread.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_1_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_1_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_2_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_2_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_3_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_3_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_4_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_4_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_5_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_5_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_6_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_6_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_1_150_C.jpg">
+      <PackagePath>Images\French\French_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_1_600_C.jpg">
+      <PackagePath>Images\French\French_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_2_150_C.jpg">
+      <PackagePath>Images\French\French_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_2_310_C.jpg">
+      <PackagePath>Images\French\French_2_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_2_600_C.jpg">
+      <PackagePath>Images\French\French_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_3_150_C.jpg">
+      <PackagePath>Images\French\French_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_3_600_C.jpg">
+      <PackagePath>Images\French\French_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_4_150_C.jpg">
+      <PackagePath>Images\French\French_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_4_600_C.jpg">
+      <PackagePath>Images\French\French_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_5_150_C.jpg">
+      <PackagePath>Images\French\French_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_5_600_C.jpg">
+      <PackagePath>Images\French\French_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_6_150_C.jpg">
+      <PackagePath>Images\French\French_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_6_600_C.jpg">
+      <PackagePath>Images\French\French_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_1_150_C.jpg">
+      <PackagePath>Images\German\German_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_1_600_C.jpg">
+      <PackagePath>Images\German\German_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_2_150_C.jpg">
+      <PackagePath>Images\German\German_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_2_600_C.jpg">
+      <PackagePath>Images\German\German_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_3_150_C.jpg">
+      <PackagePath>Images\German\German_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_3_600_C.jpg">
+      <PackagePath>Images\German\German_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_4_150_C.jpg">
+      <PackagePath>Images\German\German_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_4_310_C.jpg">
+      <PackagePath>Images\German\German_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_4_600_C.jpg">
+      <PackagePath>Images\German\German_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_5_150_C.jpg">
+      <PackagePath>Images\German\German_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_5_600_C.jpg">
+      <PackagePath>Images\German\German_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_6_150_C.jpg">
+      <PackagePath>Images\German\German_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\German_6_600_C.jpg">
+      <PackagePath>Images\German\German_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Grain.jpg">
+      <PackagePath>Images\Grain.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_1_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_1_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_2_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_2_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_3_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_3_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_4_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_4_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_5_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_5_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_6_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_6_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_1_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_1_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_2_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_2_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_3_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_3_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_4_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_4_310_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_4_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_5_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_5_310_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_5_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_6_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\Italian_6_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\logo_150x150.jpg">
+      <PackagePath>Images\logo_150x150.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-24T06:15:53.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\logo_24x24.jpg">
+      <PackagePath>Images\logo_24x24.jpg</PackagePath>
+      <Modified>2014-09-24T06:20:50.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\logo_30x30.jpg">
+      <PackagePath>Images\logo_30x30.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-24T06:15:00.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\logo_310x150.jpg">
+      <PackagePath>Images\logo_310x150.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-24T06:33:24.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\logo_33x33.jpg">
+      <PackagePath>Images\logo_33x33.jpg</PackagePath>
+      <Modified>2014-09-24T06:16:56.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_1_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_1_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_2_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_2_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_3_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_3_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_4_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_4_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_5_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_5_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_6_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\Mexican_6_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\origionScreen.jpg">
+      <PackagePath>Images\origionScreen.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-24T06:36:25.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Peppers.jpg">
+      <PackagePath>Images\Peppers.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Tiles\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Tiles\Chinese_6_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Tiles\French_2_310_C.jpg">
+      <PackagePath>Images\Tiles\French_2_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Tiles\German_4_310_C.jpg">
+      <PackagePath>Images\Tiles\German_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Tiles\Italian_4_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Tiles\Italian_5_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_5_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Vegetables.jpg">
+      <PackagePath>Images\Vegetables.jpg</PackagePath>
+      <Modified>2014-09-24T07:04:02.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\chinese_group.png">
+      <PackagePath>Images\Chinese\chinese_group.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\chinese_group_detail.png">
+      <PackagePath>Images\Chinese\chinese_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\chinese_group_header.png">
+      <PackagePath>Images\Chinese\chinese_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\french_group.png">
+      <PackagePath>Images\French\french_group.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\french_group_detail.png">
+      <PackagePath>Images\French\french_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\french_group_header.png">
+      <PackagePath>Images\French\french_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\german_group.png">
+      <PackagePath>Images\German\german_group.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\german_group_detail.png">
+      <PackagePath>Images\German\german_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\german_group_header.png">
+      <PackagePath>Images\German\german_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Hero.png">
+      <PackagePath>Images\Hero.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\indian_group.png">
+      <PackagePath>Images\Indian\indian_group.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\indian_group_detail.png">
+      <PackagePath>Images\Indian\indian_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\indian_group_header.png">
+      <PackagePath>Images\Indian\indian_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\italian_group.png">
+      <PackagePath>Images\Italian\italian_group.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\italian_group_detail.png">
+      <PackagePath>Images\Italian\italian_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\italian_group_header.png">
+      <PackagePath>Images\Italian\italian_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\mexican_group.png">
+      <PackagePath>Images\Mexican\mexican_group.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\mexican_group_detail.png">
+      <PackagePath>Images\Mexican\mexican_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\mexican_group_header.png">
+      <PackagePath>Images\Mexican\mexican_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:04:02.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-09-24T06:46:12.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-24T06:24:07.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2014-09-24T10:42:24.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2014-09-24T10:42:24.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2014-09-24T10:42:24.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\hubTemplateExercise.xr.xml">
+      <PackagePath>hubTemplateExercise.xr.xml</PackagePath>
+      <Modified>2014-09-24T10:42:24.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-24T14:55:02.050</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
