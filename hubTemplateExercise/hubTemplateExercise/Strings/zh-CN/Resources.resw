@@ -223,19 +223,19 @@
     <value>Item Title</value>
   </data>
   <data name="LongText.Text" xml:space="preserve">
-        <value>“Health food” is considered to be a more natural and nutritious option when it comes to eating and can fall into several categories including whole and organic foods. Whole foods are natural meal options that have not been processed or refined. Organic foods refer to those that have been produced on an organic farm without the use of pesticides or chemical fertilizers. Unlike the term “whole food,” organic food must adhere to set standards in order to be labeled as such.</value>
+    <value>“Health food” is considered to be a more natural and nutritious option when it comes to eating and can fall into several categories including whole and organic foods. Whole foods are natural meal options that have not been processed or refined. Organic foods refer to those that have been produced on an organic farm without the use of pesticides or chemical fertilizers. Unlike the term “whole food,” organic food must adhere to set standards in order to be labeled as such.</value>
   </data>
   <data name="Section1DescriptionText.Text" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper.</value>
   </data>
   <data name="Section1Header.Header" xml:space="preserve">
-    <value>Featured Recipe</value>
+    <value>简介</value>
   </data>
   <data name="Section1Subtitle.Text" xml:space="preserve">
     <value>Lorem ipsum dolor sit nonumy sed consectetuer ising elit, sed diam</value>
   </data>
   <data name="Section2Header.Header" xml:space="preserve">
-    <value>International Cuisine</value>
+    <value>专辑</value>
   </data>
   <data name="Section3Header.Header" xml:space="preserve">
     <value>Top Rated</value>
@@ -244,7 +244,7 @@
     <value>Section subtitle</value>
   </data>
   <data name="Section4Header.Header" xml:space="preserve">
-    <value>Health Food Corner</value>
+    <value>单曲</value>
   </data>
   <data name="Section2UnderTitle.Text" xml:space="preserve">
     <value>Quisque in porta lorem dolor amet sed consectetuer ising elit, sed diam non my nibh uis mod wisi quip.</value>

@@ -19,6 +19,12 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\hubTemplateExercise.exe">
       <PackagePath>hubTemplateExercise.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian.jpg">
+      <PackagePath>Images\badukongjian\badukongjian.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_h_130.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Bread.jpg">
       <PackagePath>Images\Bread.jpg</PackagePath>
     </AppxPackagedFile>
@@ -60,6 +66,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\Chinese_6_600_C.jpg">
       <PackagePath>Images\Chinese\Chinese_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy.jpg">
+      <PackagePath>Images\Fantasy\Fantasy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_03.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_h_130.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_h_130.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\French_1_150_C.jpg">
       <PackagePath>Images\French\French_1_150_C.jpg</PackagePath>
@@ -141,6 +156,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Grain.jpg">
       <PackagePath>Images\Grain.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Hero.jpg">
+      <PackagePath>Images\Hero.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Indian\Indian_1_150_C.jpg">
       <PackagePath>Images\Indian\Indian_1_150_C.jpg</PackagePath>
@@ -226,6 +244,9 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Jay\Jay_1.jpg">
       <PackagePath>Images\Jay\Jay_1.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Jay\Jay_h_130.jpg">
+      <PackagePath>Images\Jay\Jay_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\logo_150x150.jpg">
       <PackagePath>Images\logo_150x150.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -287,6 +308,15 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Peppers.jpg">
       <PackagePath>Images\Peppers.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang.jpg">
+      <PackagePath>Images\qilixiang\qilixiang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_02.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_h_130.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Tiles\Chinese_6_310_C.jpg">
       <PackagePath>Images\Tiles\Chinese_6_310_C.jpg</PackagePath>
     </AppxPackagedFile>
@@ -305,6 +335,42 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Vegetables.jpg">
       <PackagePath>Images\Vegetables.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\wohenmang\wohenmang.jpg">
+      <PackagePath>Images\wohenmang\wohenmang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\wohenmang\wohenmang_07.jpg">
+      <PackagePath>Images\wohenmang\wohenmang_07.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\wohenmang\wohenmang_h_130.jpg">
+      <PackagePath>Images\wohenmang\wohenmang_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang.jpg">
+      <PackagePath>Images\xiaobang\xiaobang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_03.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_h_130.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei.jpg">
+      <PackagePath>Images\yehuimei\yehuimei.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_h_130.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yiranFantasy\yiranFantasy.jpg">
+      <PackagePath>Images\yiranFantasy\yiranFantasy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yiranFantasy\yiranFantasy_03.jpg">
+      <PackagePath>Images\yiranFantasy\yiranFantasy_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yiranFantasy\yiranFantasy_h_130.jpg">
+      <PackagePath>Images\yiranFantasy\yiranFantasy_h_130.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_09.png">
+      <PackagePath>Images\badukongjian\badukongjian_09.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\chinese_group.png">
       <PackagePath>Images\Chinese\chinese_group.png</PackagePath>
     </AppxPackagedFile>
@@ -313,6 +379,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Chinese\chinese_group_header.png">
       <PackagePath>Images\Chinese\chinese_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Group_header.png">
+      <PackagePath>Images\Fantasy\Group_header.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\French\french_group.png">
       <PackagePath>Images\French\french_group.png</PackagePath>
@@ -331,6 +400,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\German\german_group_header.png">
       <PackagePath>Images\German\german_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Group_header.png">
+      <PackagePath>Images\Group_header.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Hero.png">
       <PackagePath>Images\Hero.png</PackagePath>
@@ -353,6 +425,9 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Italian\italian_group_header.png">
       <PackagePath>Images\Italian\italian_group_header.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Jay\Group_header.png">
+      <PackagePath>Images\Jay\Group_header.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\mexican_group.png">
       <PackagePath>Images\Mexican\mexican_group.png</PackagePath>
     </AppxPackagedFile>
@@ -361,6 +436,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Mexican\mexican_group_header.png">
       <PackagePath>Images\Mexican\mexican_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_01.png">
+      <PackagePath>Images\yehuimei\yehuimei_01.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>

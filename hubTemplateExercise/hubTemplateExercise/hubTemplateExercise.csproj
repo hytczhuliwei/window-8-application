@@ -128,6 +128,9 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Images\badukongjian\badukongjian.jpg" />
+    <Content Include="Images\badukongjian\badukongjian_09.png" />
+    <Content Include="Images\badukongjian\badukongjian_h_130.jpg" />
     <Content Include="Images\Bread.jpg" />
     <Content Include="Images\Chinese\Chinese_1_150_C.jpg" />
     <Content Include="Images\Chinese\Chinese_1_600_C.jpg" />
@@ -145,6 +148,10 @@
     <Content Include="Images\Chinese\chinese_group.png" />
     <Content Include="Images\Chinese\chinese_group_detail.png" />
     <Content Include="Images\Chinese\chinese_group_header.png" />
+    <Content Include="Images\Fantasy\Fantasy.jpg" />
+    <Content Include="Images\Fantasy\Fantasy_03.jpg" />
+    <Content Include="Images\Fantasy\Fantasy_h_130.jpg" />
+    <Content Include="Images\Fantasy\Group_header.png" />
     <Content Include="Images\French\French_1_150_C.jpg" />
     <Content Include="Images\French\French_1_600_C.jpg" />
     <Content Include="Images\French\French_2_150_C.jpg" />
@@ -178,6 +185,8 @@
     <Content Include="Images\German\german_group_detail.png" />
     <Content Include="Images\German\german_group_header.png" />
     <Content Include="Images\Grain.jpg" />
+    <Content Include="Images\Group_header.png" />
+    <Content Include="Images\Hero.jpg" />
     <Content Include="Images\Hero.png" />
     <Content Include="Images\Indian\Indian_1_150_C.jpg" />
     <Content Include="Images\Indian\Indian_1_600_C.jpg" />
@@ -213,6 +222,8 @@
     <Content Include="Images\Italian\italian_group_header.png" />
     <Content Include="Images\Jay\Jay.jpg" />
     <Content Include="Images\Jay\Jay_1.jpg" />
+    <Content Include="Images\Jay\Group_header.png" />
+    <Content Include="Images\Jay\Jay_h_130.jpg" />
     <Content Include="Images\logo_150x150.jpg" />
     <Content Include="Images\logo_24x24.jpg" />
     <Content Include="Images\logo_30x30.jpg" />
@@ -235,19 +246,41 @@
     <Content Include="Images\Mexican\mexican_group_header.png" />
     <Content Include="Images\origionScreen.jpg" />
     <Content Include="Images\Peppers.jpg" />
+    <Content Include="Images\qilixiang\qilixiang.jpg" />
+    <Content Include="Images\qilixiang\qilixiang_02.jpg" />
+    <Content Include="Images\qilixiang\qilixiang_h_130.jpg" />
     <Content Include="Images\Tiles\Chinese_6_310_C.jpg" />
     <Content Include="Images\Tiles\French_2_310_C.jpg" />
     <Content Include="Images\Tiles\German_4_310_C.jpg" />
     <Content Include="Images\Tiles\Italian_4_310_C.jpg" />
     <Content Include="Images\Tiles\Italian_5_310_C.jpg" />
     <Content Include="Images\Vegetables.jpg" />
+    <Content Include="Images\wohenmang\wohenmang.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_07.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_h_130.jpg" />
+    <Content Include="Images\xiaobang\xiaobang.jpg" />
+    <Content Include="Images\xiaobang\xiaobang_03.jpg" />
+    <Content Include="Images\xiaobang\xiaobang_h_130.jpg" />
+    <Content Include="Images\yehuimei\yehuimei.jpg" />
+    <Content Include="Images\yehuimei\yehuimei_01.png" />
+    <Content Include="Images\yehuimei\yehuimei_h_130.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_03.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_h_130.jpg" />
     <None Include="Common\ReadMe.txt" />
     <None Include="hubTemplateExercise_TemporaryKey.pfx" />
+    <None Include="Images\badukongjian\Thumbs.db" />
     <None Include="Images\Chinese\Thumbs.db" />
+    <None Include="Images\Fantasy\Thumbs.db" />
     <None Include="Images\French\Thumbs.db" />
     <None Include="Images\German\Thumbs.db" />
     <None Include="Images\Indian\Thumbs.db" />
     <None Include="Images\Jay\Thumbs.db" />
+    <None Include="Images\qilixiang\Thumbs.db" />
+    <None Include="Images\wohenmang\Thumbs.db" />
+    <None Include="Images\xiaobang\Thumbs.db" />
+    <None Include="Images\yehuimei\Thumbs.db" />
+    <None Include="Images\yiranFantasy\Thumbs.db" />
     <PRIResource Include="Strings\zh-CN\Resources.resw">
       <SubType>Designer</SubType>
     </PRIResource>

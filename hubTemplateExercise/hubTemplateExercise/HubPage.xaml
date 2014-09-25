@@ -65,16 +65,16 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-                            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                            <TextBlock x:Name="pageTitle" Text="你好，周杰伦" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" />
                         </Grid>
                     </Hub.Header>
                     <HubSection Width="780" Margin="0,0,80,0" VerticalContentAlignment="Bottom">
                         <HubSection.Background>
-                            <ImageBrush ImageSource="Images/Hero.png" Stretch="UniformToFill" />
+                            <ImageBrush ImageSource="Images/Hero.jpg" Stretch="UniformToFill" />
                         </HubSection.Background>
                         <DataTemplate>
-                            <TextBlock Text="Salad Week" Style="{StaticResource HeaderTextBlockStyle}" />
+                            <TextBlock Text="Jay Chou" Style="{StaticResource HeaderTextBlockStyle}" />
                         </DataTemplate>
                     </HubSection>
                     <HubSection Width="500" x:Uid="Section1Header" Header="Featured Recipe" DataContext="{Binding Section1Item}"  d:DataContext="{Binding Groups[4].Items[3], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
@@ -93,7 +93,7 @@
                             </Grid>
                         </DataTemplate>
                     </HubSection>
-                    <HubSection x:Uid="Section2Header" Header="International Cuisine"
+                    <HubSection x:Uid="Section2Header" Header="专辑"
     DataContext="{Binding Section2Items}" d:DataContext="{Binding Groups, Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
                         <DataTemplate>
                             <ListView
