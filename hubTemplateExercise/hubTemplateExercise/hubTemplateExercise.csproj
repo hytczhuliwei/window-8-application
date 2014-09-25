@@ -211,6 +211,8 @@
     <Content Include="Images\Italian\italian_group.png" />
     <Content Include="Images\Italian\italian_group_detail.png" />
     <Content Include="Images\Italian\italian_group_header.png" />
+    <Content Include="Images\Jay\Jay.jpg" />
+    <Content Include="Images\Jay\Jay_1.jpg" />
     <Content Include="Images\logo_150x150.jpg" />
     <Content Include="Images\logo_24x24.jpg" />
     <Content Include="Images\logo_30x30.jpg" />
@@ -245,6 +247,7 @@
     <None Include="Images\French\Thumbs.db" />
     <None Include="Images\German\Thumbs.db" />
     <None Include="Images\Indian\Thumbs.db" />
+    <None Include="Images\Jay\Thumbs.db" />
     <PRIResource Include="Strings\zh-CN\Resources.resw">
       <SubType>Designer</SubType>
     </PRIResource>

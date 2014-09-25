@@ -51,6 +51,7 @@ namespace hubTemplateExercise
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
+            this.SizeChanged += ItemPage_SizeChanged;
         }
 
         /// <summary>
@@ -70,7 +71,21 @@ namespace hubTemplateExercise
             var item = await SampleDataSource.GetItemAsync((String)e.NavigationParameter);
             this.DefaultViewModel["Item"] = item;
         }
-
+        void ItemPage_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (e.NewSize.Width <= 800)
+            {
+                VisualStateManager.GoToState(this, "NarrowLayout", true);
+            }
+            else if (e.NewSize.Width > 800 && e.NewSize.Width <= 1250)
+            {
+                VisualStateManager.GoToState(this, "IntermediateLayout", true);
+            }
+            else
+            {
+                VisualStateManager.GoToState(this, "DefaultLayout", true);
+            }
+        }
         #region NavigationHelper 注册
 
         /// 此部分中提供的方法只是用于使

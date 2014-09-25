@@ -1,6 +1,6 @@
 {"Groups":[
 	{ 
-		"ImagePath" : "Images/Chinese/chinese_group_detail.png",
+"ImagePath" : "Images/Chinese/chinese_group_detail.png",
 		"Description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet tempus libero vitae feugiat. Proin justo velit, luctus ornare posuere eget, pulvinar ac nibh. Integer dapibus leo in metus volutpat blandit. Morbi facilisis laoreet magna iaculis porta. Donec quis ipsum et justo faucibus lacinia. Vivamus id sapien nec dolor venenatis hendrerit. Aenean sit amet pretium quam. ",
 		"GroupImagePath" : "Images/Chinese/chinese_group.png",
 		"GroupHeaderImagePath" : "Images/Chinese/chinese_group_header.png",
@@ -8,7 +8,7 @@
 		"Subtitle" : "Chinese",
 		"Title" : "Chinese",
 		"Items" : [
-			{	"ImagePath" : "Images/Chinese/Chinese_1_600_C.jpg",
+			{	"ImagePath": "Images/Jay/Jay_1.jpg",
 				"Content" : "Mix the ground pork with the salt, sugar, pepper, cornstarch and sesame oil. Add the dried mushrooms and Chinese sausage.Divide into 18 approximately equal portions. Take one portion of the meat and slightly flatten in your hand. Place a cooked quail egg on top of the meat and cover the meat around the egg to make a small round ball. Set aside. Dough:Mix the flour and sugar in a big bowl. Pour the milk in and mix until it becomes a dough Let it sit for 5 minutes. Divide into about 18 equal portions. If you feel any lumps, work through the dough with your hands to remove them. Forming and Cooking the Buns: flour, 18 pieces of dough, 18 balls of meat filling,  parchment paper, cut into 18 square. On a floured surface, roll out a piece of dough into a circle, ideally tapered at the edges Dip one of the prepared meat fillings in flour, With the piece of dough in one hand, place the meat filling on top. ",
 				"Favorite" : false,
 				"Ingredients" : [ 
@@ -33,7 +33,8 @@
 				"Subtitle" : "Steam bun baos",
 				"Description" : "Steam bun baos",
 				"TileImagePath" : "Images/Chinese/Chinese_1_150_C.jpg"
-			},
+
+            },
 			{	"ImagePath" : "Images/Chinese/Chinese_2_600_C.jpg",
 				"Content" : "Crumble the bread mix it with the egg add salt to it. Cover each 2 shrimps with the mix hit a pan pour the souce to the pen fry the balls in the pan. Simply mix all ingredients by hand. At first it does not appear like it will mix, but keep at it just a bit longer and you have Hoisin Sauce. Letting it rest does not appear to improve the flavour any.",
 				"Favorite" : false,

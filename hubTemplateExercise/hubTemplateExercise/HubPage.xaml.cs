@@ -51,6 +51,23 @@ namespace hubTemplateExercise
             this.navigationHelper.LoadState += navigationHelper_LoadState;
         }
 
+        private IEnumerable<string> GetSectionList()
+        {
+            var sections = this.Hub.Sections;
+            var headers = new List<string>();
+
+            foreach (var item in sections)
+            {
+                var section = (HubSection)item;
+                var header = (string)section.Header;
+                if (string.IsNullOrWhiteSpace(header))
+                {
+                    continue;
+                }
+
+                yield return header;
+            }
+        }
         /// <summary>
         /// 使用在导航过程中传递的内容填充页。  在从以前的会话
         /// 重新创建页时，也会提供任何已保存状态。
@@ -75,6 +92,8 @@ namespace hubTemplateExercise
             // Top rated
             var topRated = await SampleDataSource.GetTopRatedRecipesAsync(6);
             this.DefaultViewModel["Section3Items"] = topRated;
+
+            this.DefaultViewModel["ZoomedOutList"] = this.GetSectionList();
         }
 
         /// <summary>

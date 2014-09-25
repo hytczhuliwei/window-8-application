@@ -670,6 +670,3 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
 }
 
 
-
-
-

@@ -53,6 +53,7 @@ namespace hubTemplateExercise
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
+            this.SizeChanged += SectionPage_SizeChanged;
         }
 
         /// <summary>
@@ -73,7 +74,17 @@ namespace hubTemplateExercise
             this.DefaultViewModel["Group"] = group;
             this.DefaultViewModel["Items"] = group.Items;
         }
-
+        private void SectionPage_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (e.NewSize.Width <= 900)
+            {
+                VisualStateManager.GoToState(this, "NarrowLayout", true);
+            }
+            else
+            {
+                VisualStateManager.GoToState(this, "DefaultLayout", true);
+            }
+        }
         /// <summary>
         /// 在单击某个项时进行调用。
         /// </summary>
