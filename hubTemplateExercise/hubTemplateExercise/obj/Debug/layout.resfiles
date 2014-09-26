@@ -11,6 +11,9 @@ hubTemplateExercise.xr.xml
 ItemPage.xbf
 SectionPage.xbf
 DataModel\SampleData.json
+Images\12xinzuo\12xinzuo.jpg
+Images\12xinzuo\12xinzuo_12.jpg
+Images\12xinzuo\12xinzuo_h_130.jpg
 Images\badukongjian\badukongjian.jpg
 Images\badukongjian\badukongjian_09.png
 Images\badukongjian\badukongjian_h_130.jpg
@@ -107,6 +110,12 @@ Images\Jay\Group_header.png
 Images\Jay\Jay.jpg
 Images\Jay\Jay_1.jpg
 Images\Jay\Jay_h_130.jpg
+Images\jingtanhao\jingtanhao.jpg
+Images\jingtanhao\jingtanhao_03.JPG
+Images\jingtanhao\jingtanhao_h_130.jpg
+Images\kuashidai\kuashidai.jpg
+Images\kuashidai\kuashidai_03.jpg
+Images\kuashidai\kuashidai_h_130.jpg
 Images\logo_150x150.jpg
 Images\logo_24x24.jpg
 Images\logo_30x30.jpg
@@ -127,6 +136,17 @@ Images\Mexican\Mexican_6_600_C.jpg
 Images\Mexican\mexican_group.png
 Images\Mexican\mexican_group_detail.png
 Images\Mexican\mexican_group_header.png
+Images\mojiezuo\mojiezuo.jpg
+Images\mojiezuo\mojiezuo_11.jpg
+Images\mojiezuo\mojiezuo_h_130.jpg
+Images\movie\movie_1.jpg
+Images\movie\movie_2.jpg
+Images\movie\movie_3.jpg
+Images\movie\movie_4.jpg
+Images\movie\movie_5.jpg
+Images\movie\movie_6.jpg
+Images\movie\movie_7.jpg
+Images\movie\movie_8.jpg
 Images\origionScreen.jpg
 Images\Peppers.jpg
 Images\qilixiang\qilixiang.jpg
@@ -150,3 +170,4 @@ Images\yehuimei\yehuimei_h_130.jpg
 Images\yiranFantasy\yiranFantasy.jpg
 Images\yiranFantasy\yiranFantasy_03.jpg
 Images\yiranFantasy\yiranFantasy_h_130.jpg
+Images\ziliaoImage.jpg

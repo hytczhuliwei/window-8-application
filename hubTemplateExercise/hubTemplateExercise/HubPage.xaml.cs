@@ -82,15 +82,15 @@ namespace hubTemplateExercise
         private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // Featured recipe
-            var favorites = await SampleDataSource.GetFavoriteRecipesAsync(1);
-            this.DefaultViewModel["Section1Item"] = favorites.SingleOrDefault();
+           // var favorites = await SampleDataSource.GetFavoriteRecipesAsync(1);
+           // this.DefaultViewModel["Section1Item"] = favorites.SingleOrDefault();
 
             // International Cuisine
             var groups = await SampleDataSource.GetGroupsAsync();
             this.DefaultViewModel["Section2Items"] = groups;
 
             // Top rated
-            var topRated = await SampleDataSource.GetTopRatedRecipesAsync(6);
+            var topRated = await SampleDataSource.GetTopRatedRecipesAsync(10);
             this.DefaultViewModel["Section3Items"] = topRated;
 
             this.DefaultViewModel["ZoomedOutList"] = this.GetSectionList();

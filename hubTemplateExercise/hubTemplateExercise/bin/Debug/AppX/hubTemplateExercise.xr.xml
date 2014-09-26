@@ -2,24 +2,25 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
+    <RootPropertyPathName Name="pulicTime" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="TileImagePath" />
     <RootPropertyPathName Name="GroupHeaderImagePath" />
-    <RootPropertyPathName Name="Description" />
+    <RootPropertyPathName Name="Rating" />
     <RootPropertyPathName Name="ImagePath" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="Section3Items" />
     <RootPropertyPathName Name="Section2Items" />
     <RootPropertyPathName Name="Section1Item" />
-    <RootPropertyPathName Name="Content" />
     <RootPropertyPathName Name="ZoomedOutList" />
     <RootPropertyPathName Name="Group" />
-    <RootPropertyPathName Name="Rating" />
     <RootPropertyPathName Name="PreparationTime" />
+    <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="Item" />
     <RootPropertyPathName Name="Ingredients" />
+    <RootPropertyPathName Name="Content" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -56,12 +57,12 @@
       <RootProperty Name="Visibility" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
@@ -76,16 +77,21 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Style" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="Inlines" />
       <RootProperty Name="LineHeight" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
@@ -185,9 +191,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateManager">
       <RootMethod Name="GetVisualStateGroups" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Run">
-      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
       <RootProperty Name="Margin" />

@@ -22,11 +22,12 @@ namespace hubTemplateExercise.Data
     /// 泛型项数据模型。
     /// </summary>
     public class SampleDataItem
-    {
-        public SampleDataItem(String uniqueId, String title, String subtitle, String imagePath, String description, String content, double preparationTime, double rating, bool favorite, string tileImagePath, ObservableCollection<string> ingredients, SampleDataGroup group)
+    {//String pulictime,
+        public SampleDataItem(String uniqueId, String title, String subtitle, String imagePath,  String description, String content, double preparationTime, double rating, bool favorite, string tileImagePath, ObservableCollection<string> ingredients, SampleDataGroup group)
         {
             this.UniqueId = uniqueId;
-            this.Title = title;
+            this.Title = title; 
+          //  this.pulicTime = pulictime;
             this.Subtitle = subtitle;
             this.Description = description;
             this.ImagePath = imagePath;
@@ -37,12 +38,15 @@ namespace hubTemplateExercise.Data
             this.TileImagePath = tileImagePath;
             this.Ingredients = ingredients;
             this.Group = group;
+           
         }
         public string UniqueId { get; private set; }
         public string Title { get; private set; }
+       // public string pulicTime { get; private set; }
         public string Subtitle { get; private set; }
         public string Description { get; private set; }
         public string ImagePath { get; private set; }
+       
         public string Content { get; private set; }
         public double PreparationTime { get; private set; }
         public double Rating { get; private set; }
@@ -54,6 +58,7 @@ namespace hubTemplateExercise.Data
         {
             return this.Title;
         }
+
     }
 
     /// <summary>
@@ -61,10 +66,12 @@ namespace hubTemplateExercise.Data
     /// </summary>
     public class SampleDataGroup
     {
-        public SampleDataGroup(String uniqueId, String title, String subtitle, String imagePath, String description, string groupImagePath, string groupHeaderImagePath)
+        //
+        public SampleDataGroup(String uniqueId, String title,String pulictime, String subtitle, String imagePath, String description, string groupImagePath, string groupHeaderImagePath)
         {
             this.UniqueId = uniqueId;
             this.Title = title;
+            this.pulicTime = pulictime;
             this.Subtitle = subtitle;
             this.Description = description;
             this.ImagePath = imagePath;
@@ -74,9 +81,10 @@ namespace hubTemplateExercise.Data
         }
         public string GroupImagePath { get; private set; }
         public string GroupHeaderImagePath { get; private set; }
-
+       
         public string UniqueId { get; private set; }
         public string Title { get; private set; }
+        public string pulicTime { get; private set; }
         public string Subtitle { get; private set; }
         public string Description { get; private set; }
         public string ImagePath { get; private set; }
@@ -85,6 +93,7 @@ namespace hubTemplateExercise.Data
         {
             return this.Title;
         }
+
     }
 
     /// <summary>
@@ -143,8 +152,10 @@ namespace hubTemplateExercise.Data
             foreach (JsonValue groupValue in jsonArray)
             {
                 JsonObject groupObject = groupValue.GetObject();
-                SampleDataGroup group = new SampleDataGroup(groupObject["UniqueId"].GetString(),
+                SampleDataGroup group = new SampleDataGroup(
+                                                            groupObject["UniqueId"].GetString(),
                                                             groupObject["Title"].GetString(),
+                                                            groupObject["pulicTime"].GetString(),
                                                             groupObject["Subtitle"].GetString(),
                                                             groupObject["ImagePath"].GetString(),
                                                             groupObject["Description"].GetString(),
@@ -154,8 +165,10 @@ namespace hubTemplateExercise.Data
                 foreach (JsonValue itemValue in groupObject["Items"].GetArray())
                 {
                     JsonObject itemObject = itemValue.GetObject();
-                    group.Items.Add(new SampleDataItem(itemObject["UniqueId"].GetString(),
+                    group.Items.Add(new SampleDataItem(
+                                                       itemObject["UniqueId"].GetString(),
                                                        itemObject["Title"].GetString(),
+                                                   //    itemObject["pulicTime"].GetString(),
                                                        itemObject["Subtitle"].GetString(),
                                                        itemObject["ImagePath"].GetString(),
                                                        itemObject["Description"].GetString(),
@@ -165,7 +178,7 @@ namespace hubTemplateExercise.Data
                                                        itemObject["Favorite"].GetBoolean(),
                                                        itemObject["TileImagePath"].GetString(),
                                                        new ObservableCollection<string>(itemObject["Ingredients"].GetArray().Select(p => p.GetString())),
-                                                       group));
+                                                                            group));
                 }
                 this.Groups.Add(group);
             }
@@ -175,7 +188,7 @@ namespace hubTemplateExercise.Data
         {
             await _sampleDataSource.GetSampleDataAsync();
 
-            var favorites = new SampleDataGroup("TopRated", "Top Rated", "Top Rated Recipes", "", "Favorite recipes rated by our users.", "", "");
+            var favorites = new SampleDataGroup("TopRated", "Top Rated","", "Top Rated Recipes","", "Favorite recipes rated by our users.", "", "");
             var topRatedRecipes = _sampleDataSource.Groups.SelectMany(group => group.Items).OrderByDescending(recipe => recipe.Rating).Take(count);
             foreach (var recipe in topRatedRecipes)
             {
