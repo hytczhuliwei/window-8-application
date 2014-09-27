@@ -50,6 +50,12 @@
                     <Run Text="{Binding PreparationTime}" />
                     <Run Text=" minutes"/>
                 </TextBlock>
+                <!--<StackPanel Orientation="Horizontal">
+                   <AppBarButton Name="audioStop" Icon="Pause" Click="audioStop_Click"/>
+                    <AppBarButton Name="audioPlay" Icon="Play" Click="audioPlay_Click"/>
+                    <MediaElement></MediaElement>
+                </StackPanel>-->
+                
             </StackPanel>
             <ScrollViewer HorizontalScrollBarVisibility="Disabled" Grid.Column="4" VerticalScrollBarVisibility="Auto" HorizontalScrollMode="Disabled" VerticalScrollMode="Enabled" ZoomMode="Disabled">
                 <StackPanel Orientation="Vertical">

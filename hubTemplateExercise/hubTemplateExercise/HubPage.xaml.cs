@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Storage;
+using Windows.Storage.Streams;
 
 //“中心页”项模板在 http://go.microsoft.com/fwlink/?LinkID=321224 上有介绍
 
@@ -43,12 +45,15 @@ namespace hubTemplateExercise
         {
             get { return this.defaultViewModel; }
         }
-
+        public static MediaElement myMediaElement = new MediaElement(); //依然采用MediaElement
+        public static IRandomAccessStream soundStream = null;
         public HubPage()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
+            myMediaElement.AudioCategory = AudioCategory.BackgroundCapableMedia;
+            myMediaElement.IsLooping = true; //循环播放开启
         }
 
         private IEnumerable<string> GetSectionList()
@@ -94,6 +99,26 @@ namespace hubTemplateExercise
             this.DefaultViewModel["Section3Items"] = topRated;
 
             this.DefaultViewModel["ZoomedOutList"] = this.GetSectionList();
+            if (HubPage.soundStream == null)
+            {
+
+                string fileLocation = "ms-appx:///Sound/Jay/";
+
+                string filename = "Jay_10.mp3"; //音乐文件sound.wav同样在sound文件夹中
+
+                var fs = RandomAccessStreamReference.CreateFromUri(new Uri(fileLocation + filename));
+
+                HubPage.soundStream = await fs.OpenReadAsync();
+
+                HubPage.myMediaElement.SetSource(HubPage.soundStream, ""); //这里已经开始播放了
+
+                //如要控制“播放”与“停止”，可以如下进行：
+
+                //ItemPage.myMediaElement.Play(); //播放
+
+                //ItemPage.myMediaElement.Stop(); //停止
+
+            }
         }
 
         /// <summary>
@@ -151,5 +176,19 @@ namespace hubTemplateExercise
         }
 
         #endregion
+
+        private void audioStop_Click(object sender, RoutedEventArgs e)
+        {
+            audioStop.Visibility = Visibility.Collapsed;
+            audioPlay.Visibility = Visibility.Visible;
+            HubPage.myMediaElement.Pause(); //停止
+        }
+
+        private void audioPlay_Click(object sender, RoutedEventArgs e)
+        {
+            audioPlay.Visibility = Visibility.Collapsed;
+            audioStop.Visibility = Visibility.Visible;
+            HubPage.myMediaElement.Play(); //播放
+        }
     }
 }

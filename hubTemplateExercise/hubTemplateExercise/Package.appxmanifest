@@ -15,13 +15,13 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="hubTemplateExercise.App">
-      <m2:VisualElements DisplayName="hub Demo" Square150x150Logo="Images\logo_150x150.jpg" Square30x30Logo="Images\logo_30x30.jpg" Description="hub Demo app" ForegroundText="dark" BackgroundColor="#bebebe">
-        <m2:DefaultTile ShortName="hub Demo" Wide310x150Logo="Images\logo_310x150.jpg">
+      <m2:VisualElements DisplayName="你好，周杰伦" Square150x150Logo="Images\logo_150x150.jpg" Square30x30Logo="Images\logo_30x30.jpg" Description="走进周杰伦……" ForegroundText="light" BackgroundColor="#bebebe">
+        <m2:DefaultTile ShortName="你好，周杰伦" Wide310x150Logo="Images\logo_310x150.jpg">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
           </m2:ShowNameOnTiles>
         </m2:DefaultTile>
-        <m2:SplashScreen Image="Images\origionScreen.jpg" BackgroundColor="#bebebe" />
+        <m2:SplashScreen Image="Images\origionScreen.jpg" BackgroundColor="#010101" />
       </m2:VisualElements>
     </Application>
   </Applications>
