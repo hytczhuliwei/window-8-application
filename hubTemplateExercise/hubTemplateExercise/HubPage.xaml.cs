@@ -16,6 +16,11 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Storage;
 using Windows.Storage.Streams;
+using Windows.Data.Json;
+using System.Net;
+using System.Threading.Tasks;
+using System.Text;
+
 
 //“中心页”项模板在 http://go.microsoft.com/fwlink/?LinkID=321224 上有介绍
 
@@ -111,14 +116,72 @@ namespace hubTemplateExercise
                 HubPage.soundStream = await fs.OpenReadAsync();
 
                 HubPage.myMediaElement.SetSource(HubPage.soundStream, ""); //这里已经开始播放了
-
-                //如要控制“播放”与“停止”，可以如下进行：
-
-                //ItemPage.myMediaElement.Play(); //播放
-
-                //ItemPage.myMediaElement.Stop(); //停止
-
             }
+
+            //var Citys = await SampleDataSource.GetCitysAsync();
+
+
+
+            ////获取本机ip
+            //string reslocalIpInfo = httpPost("http://61.4.185.48:81/g/", "", "get", "gb2312");
+            //string[] reslocalIp = reslocalIpInfo.Split(new String[] { "var ip=\"", "\";var id=" }, StringSplitOptions.RemoveEmptyEntries);
+
+            ////根据本机ip获取城市名
+            //string resCityNameInfo = httpPost("http://www.ip138.com/ips138.asp?ip=" + reslocalIp[0] + "&action=2", "", "get", "gb2312");
+            //string[] resCityName = resCityNameInfo.Split(new String[] { "本站主数据：", "</li><li>参考数据" }, StringSplitOptions.RemoveEmptyEntries);
+            //string[] resCityNameN = resCityName[1].Split(new String[] { "省", "市" }, StringSplitOptions.RemoveEmptyEntries);
+
+            ////根据城市名获取城市天气id
+            //string cityId = "";
+            //foreach (cityInfo a in Citys)
+            //{
+            //    if (a.CityName == resCityNameN[1])
+            //    {
+            //        cityId = a.CityID;
+            //        break;
+            //    }
+            //}
+
+
+            //string localIpInfo = httpPost("http://61.4.185.48:81/g/", "", "get", "gb2312");
+            //string[] cityId = localIpInfo.Split(new String[] { "var id=", ";if" }, StringSplitOptions.RemoveEmptyEntries);
+
+
+            ////根据城市天气id获取天气详情
+            //string resWeatherInfo = httpPost("http://m.weather.com.cn/ks/" + cityId[1] + ".html", "", "get", "utf-8");
+            ////string resWeatherInfo = httpPost("http://www.weather.com.cn/atad/" + cityId + ".html", "", "get", "utf-8");
+            //JsonObject jsonObject = JsonObject.Parse(resWeatherInfo);
+            //JsonObject jsonObjectR = jsonObject["sk_info"].GetObject();
+            //string temp = jsonObjectR["temp"].GetString();
+            //string resH = jsonObjectR["temp1"].GetString();
+
+          //  this.DefaultViewModel["weatherInfo"] = jsonObjectR;
+
+        }
+        public static string httpPost(string url, string pars, string httpload, string charset)
+        {
+            HttpWebRequest webRequest = (HttpWebRequest)HttpWebRequest.Create(url);
+            webRequest.Method = httpload;
+            webRequest.ContentType = "application/x-www-form-urlencoded";
+            byte[] channelUriInBytes = Encoding.UTF8.GetBytes(pars);
+
+            if (httpload == "post")
+            {
+                Task<Stream> requestTask = webRequest.GetRequestStreamAsync();
+                using (Stream requestStream = requestTask.Result)
+                {
+                    requestStream.Write(channelUriInBytes, 0, channelUriInBytes.Length);
+                }
+            }
+
+            string result = null;
+            Task<WebResponse> response = webRequest.GetResponseAsync();
+            using (Stream responseStream = response.Result.GetResponseStream())
+            using (StreamReader reader = new StreamReader(responseStream, Encoding.GetEncoding(charset)))
+            {
+                result = reader.ReadToEnd();
+            }
+            return result;
         }
 
         /// <summary>

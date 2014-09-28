@@ -14,6 +14,8 @@
     <RootPropertyPathName Name="Section3Items" />
     <RootPropertyPathName Name="Section2Items" />
     <RootPropertyPathName Name="Section1Item" />
+    <RootPropertyPathName Name="weatherInfo" />
+    <RootPropertyPathName Name="temp" />
     <RootPropertyPathName Name="ZoomedOutList" />
     <RootPropertyPathName Name="Group" />
     <RootPropertyPathName Name="PreparationTime" />
@@ -85,6 +87,7 @@
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="LineHeight" />

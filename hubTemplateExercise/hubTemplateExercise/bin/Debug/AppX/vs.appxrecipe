@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-09-27T12:15:49.736</Modified>
+      <Modified>2014-09-28T08:45:53.514</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\hubTemplateExercise.exe">
       <PackagePath>hubTemplateExercise.exe</PackagePath>
-      <Modified>2014-09-27T12:56:10.606</Modified>
+      <Modified>2014-09-28T12:53:02.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\12xinzuo\12xinzuo.jpg">
       <PackagePath>Images\12xinzuo\12xinzuo.jpg</PackagePath>
@@ -43,6 +43,42 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian.jpg">
       <PackagePath>Images\badukongjian\badukongjian.jpg</PackagePath>
       <Modified>2014-09-24T14:39:13.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_01.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_01.jpg</PackagePath>
+      <Modified>2014-09-28T02:13:22.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_02.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_02.jpg</PackagePath>
+      <Modified>2014-09-28T02:26:12.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_03.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_03.jpg</PackagePath>
+      <Modified>2014-09-28T02:42:08.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_04.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_04.jpg</PackagePath>
+      <Modified>2014-09-28T02:43:04.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_05.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_05.jpg</PackagePath>
+      <Modified>2014-09-28T02:55:46.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_06.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_06.jpg</PackagePath>
+      <Modified>2014-09-28T02:56:30.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_07.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_07.jpg</PackagePath>
+      <Modified>2014-09-28T02:58:55.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_08.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_08.jpg</PackagePath>
+      <Modified>2014-09-28T03:00:03.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_10.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_10.jpg</PackagePath>
+      <Modified>2014-09-28T03:02:58.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_h_130.jpg">
       <PackagePath>Images\badukongjian\badukongjian_h_130.jpg</PackagePath>
@@ -108,9 +144,45 @@
       <PackagePath>Images\Fantasy\Fantasy.jpg</PackagePath>
       <Modified>2014-09-24T14:39:05.127</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_01.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_01.jpg</PackagePath>
+      <Modified>2014-09-28T00:32:53.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_02.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_02.jpg</PackagePath>
+      <Modified>2014-09-28T00:42:53.990</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_03.jpg">
       <PackagePath>Images\Fantasy\Fantasy_03.jpg</PackagePath>
       <Modified>2014-09-25T11:07:20.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_04.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_04.jpg</PackagePath>
+      <Modified>2014-09-28T00:47:21.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_05.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_05.jpg</PackagePath>
+      <Modified>2014-09-28T00:49:15.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_06.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_06.jpg</PackagePath>
+      <Modified>2014-09-28T00:50:20.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_07.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_07.jpg</PackagePath>
+      <Modified>2014-09-28T00:52:14.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_08.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_08.jpg</PackagePath>
+      <Modified>2014-09-28T00:55:53.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_09.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_09.jpg</PackagePath>
+      <Modified>2014-09-28T00:57:35.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_10.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_10.jpg</PackagePath>
+      <Modified>2014-09-28T00:58:06.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_h_130.jpg">
       <PackagePath>Images\Fantasy\Fantasy_h_130.jpg</PackagePath>
@@ -532,9 +604,45 @@
       <PackagePath>Images\qilixiang\qilixiang.jpg</PackagePath>
       <Modified>2014-09-24T14:39:38.452</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_01.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_01.jpg</PackagePath>
+      <Modified>2014-09-28T07:21:45.381</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_02.jpg">
       <PackagePath>Images\qilixiang\qilixiang_02.jpg</PackagePath>
       <Modified>2014-09-25T12:27:26.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_03.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_03.jpg</PackagePath>
+      <Modified>2014-09-28T07:24:13.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_04.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_04.jpg</PackagePath>
+      <Modified>2014-09-28T07:26:21.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_05.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_05.jpg</PackagePath>
+      <Modified>2014-09-28T07:27:14.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_06.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_06.jpg</PackagePath>
+      <Modified>2014-09-28T07:28:48.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_07.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_07.jpg</PackagePath>
+      <Modified>2014-09-28T07:29:11.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_08.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_08.jpg</PackagePath>
+      <Modified>2014-09-28T07:29:32.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_09.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_09.jpg</PackagePath>
+      <Modified>2014-09-28T07:31:48.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_10.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_10.jpg</PackagePath>
+      <Modified>2014-09-28T07:32:44.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_h_130.jpg">
       <PackagePath>Images\qilixiang\qilixiang_h_130.jpg</PackagePath>
@@ -580,9 +688,53 @@
       <PackagePath>Images\xiaobang\xiaobang.jpg</PackagePath>
       <Modified>2014-09-25T13:16:24.685</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_01.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_01.jpg</PackagePath>
+      <Modified>2014-09-28T08:12:14.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_02.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_02.jpg</PackagePath>
+      <Modified>2014-09-28T08:12:30.397</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_03.jpg">
       <PackagePath>Images\xiaobang\xiaobang_03.jpg</PackagePath>
       <Modified>2014-09-25T12:57:26.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_04.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_04.jpg</PackagePath>
+      <Modified>2014-09-28T08:13:10.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_05.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_05.jpg</PackagePath>
+      <Modified>2014-09-28T08:13:39.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_06.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_06.jpg</PackagePath>
+      <Modified>2014-09-28T08:14:31.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_07.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_07.jpg</PackagePath>
+      <Modified>2014-09-28T08:14:51.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_08.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_08.jpg</PackagePath>
+      <Modified>2014-09-28T08:15:13.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_09.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_09.jpg</PackagePath>
+      <Modified>2014-09-28T08:16:28.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_10.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_10.jpg</PackagePath>
+      <Modified>2014-09-28T08:17:13.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_11.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_11.jpg</PackagePath>
+      <Modified>2014-09-28T08:17:29.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_12.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_12.jpg</PackagePath>
+      <Modified>2014-09-28T08:21:25.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_h_130.jpg">
       <PackagePath>Images\xiaobang\xiaobang_h_130.jpg</PackagePath>
@@ -591,6 +743,50 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei.jpg">
       <PackagePath>Images\yehuimei\yehuimei.jpg</PackagePath>
       <Modified>2014-09-24T14:39:30.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_01.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_01.jpg</PackagePath>
+      <Modified>2014-09-28T07:16:15.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_02.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_02.jpg</PackagePath>
+      <Modified>2014-09-28T06:24:12.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_03.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_03.jpg</PackagePath>
+      <Modified>2014-09-28T06:25:09.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_04.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_04.jpg</PackagePath>
+      <Modified>2014-09-28T06:31:14.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_05.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_05.jpg</PackagePath>
+      <Modified>2014-09-28T06:31:34.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_06.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_06.jpg</PackagePath>
+      <Modified>2014-09-28T06:32:02.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_07.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_07.jpg</PackagePath>
+      <Modified>2014-09-28T06:36:46.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_08.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_08.jpg</PackagePath>
+      <Modified>2014-09-28T06:41:39.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_09.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_09.jpg</PackagePath>
+      <Modified>2014-09-28T06:42:51.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_10.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_10.jpg</PackagePath>
+      <Modified>2014-09-28T06:43:53.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_11.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_11.jpg</PackagePath>
+      <Modified>2014-09-28T06:49:09.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_h_130.jpg">
       <PackagePath>Images\yehuimei\yehuimei_h_130.jpg</PackagePath>
@@ -743,7 +939,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
-      <Modified>2014-09-27T12:45:32.025</Modified>
+      <Modified>2014-09-28T08:45:31.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -751,7 +947,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
-      <Modified>2014-09-27T12:56:10.399</Modified>
+      <Modified>2014-09-28T12:38:28.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
@@ -759,15 +955,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
-      <Modified>2014-09-27T12:56:10.399</Modified>
+      <Modified>2014-09-28T12:38:28.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\hubTemplateExercise.xr.xml">
       <PackagePath>hubTemplateExercise.xr.xml</PackagePath>
-      <Modified>2014-09-27T12:48:48.451</Modified>
+      <Modified>2014-09-28T12:38:28.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-09-27T12:15:49.665</Modified>
+      <Modified>2014-09-28T08:45:53.359</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

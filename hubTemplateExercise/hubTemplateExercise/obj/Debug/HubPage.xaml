@@ -90,8 +90,8 @@
                         <HubSection.Background>
                             <ImageBrush ImageSource="Images/Hero.jpg" Stretch="UniformToFill" />
                         </HubSection.Background>
-                        <DataTemplate>
-                            <TextBlock Text="Jay Chou" Style="{StaticResource HeaderTextBlockStyle}" />
+                        <DataTemplate >
+                            <TextBlock   DataContext="{Binding weatherInfo}" Text="{Binding temp}" Style="{StaticResource HeaderTextBlockStyle}" />
                         </DataTemplate>
                     </HubSection>
                     <HubSection Width="500" x:Uid="Section1Header" Header="Featured Recipe" DataContext="{Binding Section1Item}"  d:DataContext="{Binding Groups[4].Items[3], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">

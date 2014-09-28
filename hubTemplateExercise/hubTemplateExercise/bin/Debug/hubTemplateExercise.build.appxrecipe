@@ -31,6 +31,33 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian.jpg">
       <PackagePath>Images\badukongjian\badukongjian.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_01.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_02.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_03.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_04.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_04.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_05.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_05.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_06.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_06.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_07.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_07.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_08.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_08.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_10.jpg">
+      <PackagePath>Images\badukongjian\badukongjian_10.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\badukongjian\badukongjian_h_130.jpg">
       <PackagePath>Images\badukongjian\badukongjian_h_130.jpg</PackagePath>
     </AppxPackagedFile>
@@ -79,8 +106,35 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy.jpg">
       <PackagePath>Images\Fantasy\Fantasy.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_01.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_02.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_02.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_03.jpg">
       <PackagePath>Images\Fantasy\Fantasy_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_04.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_04.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_05.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_05.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_06.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_06.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_07.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_07.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_08.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_08.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_09.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_09.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_10.jpg">
+      <PackagePath>Images\Fantasy\Fantasy_10.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\Fantasy\Fantasy_h_130.jpg">
       <PackagePath>Images\Fantasy\Fantasy_h_130.jpg</PackagePath>
@@ -398,8 +452,35 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang.jpg">
       <PackagePath>Images\qilixiang\qilixiang.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_01.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_01.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_02.jpg">
       <PackagePath>Images\qilixiang\qilixiang_02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_03.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_04.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_04.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_05.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_05.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_06.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_06.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_07.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_07.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_08.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_08.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_09.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_09.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_10.jpg">
+      <PackagePath>Images\qilixiang\qilixiang_10.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\qilixiang\qilixiang_h_130.jpg">
       <PackagePath>Images\qilixiang\qilixiang_h_130.jpg</PackagePath>
@@ -434,14 +515,80 @@
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang.jpg">
       <PackagePath>Images\xiaobang\xiaobang.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_01.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_02.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_02.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_03.jpg">
       <PackagePath>Images\xiaobang\xiaobang_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_04.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_04.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_05.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_05.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_06.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_06.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_07.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_07.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_08.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_08.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_09.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_09.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_10.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_11.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_12.jpg">
+      <PackagePath>Images\xiaobang\xiaobang_12.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\xiaobang\xiaobang_h_130.jpg">
       <PackagePath>Images\xiaobang\xiaobang_h_130.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei.jpg">
       <PackagePath>Images\yehuimei\yehuimei.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_01.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_02.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_03.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_04.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_04.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_05.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_05.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_06.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_06.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_07.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_07.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_08.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_08.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_09.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_09.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_10.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_11.jpg">
+      <PackagePath>Images\yehuimei\yehuimei_11.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\just\Desktop\Window8exercise\hubTemplateExercise\hubTemplateExercise\Images\yehuimei\yehuimei_h_130.jpg">
       <PackagePath>Images\yehuimei\yehuimei_h_130.jpg</PackagePath>
