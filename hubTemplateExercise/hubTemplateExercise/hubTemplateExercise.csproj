@@ -108,8 +108,13 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
     <Compile Include="HubPage.xaml.cs">
       <DependentUpon>HubPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResultsPage.xaml.cs">
+      <DependentUpon>SearchResultsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="SectionPage.xaml.cs">
       <DependentUpon>SectionPage.xaml</DependentUpon>
@@ -129,6 +134,17 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="Images\12xinzuo\12xinzuo.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_01.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_02.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_03.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_04.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_05.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_06.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_07.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_08.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_09.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_10.jpg" />
+    <Content Include="Images\12xinzuo\12xinzuo_11.jpg" />
     <Content Include="Images\12xinzuo\12xinzuo_12.jpg" />
     <Content Include="Images\12xinzuo\12xinzuo_h_130.jpg" />
     <Content Include="Images\badukongjian\badukongjian.jpg" />
@@ -255,10 +271,30 @@
     <Content Include="Images\Jay\Jay_10.jpg" />
     <Content Include="Images\Jay\Jay_h_130.jpg" />
     <Content Include="Images\jingtanhao\jingtanhao.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_01.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_010.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_02.jpg" />
     <Content Include="Images\jingtanhao\jingtanhao_03.JPG" />
+    <Content Include="Images\jingtanhao\jingtanhao_04.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_05.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_06.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_07.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_08.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_09.jpg" />
+    <Content Include="Images\jingtanhao\jingtanhao_11.jpg" />
     <Content Include="Images\jingtanhao\jingtanhao_h_130.jpg" />
     <Content Include="Images\kuashidai\kuashidai.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_01.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_02.jpg" />
     <Content Include="Images\kuashidai\kuashidai_03.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_04.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_05.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_06.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_07.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_08.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_09.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_10.jpg" />
+    <Content Include="Images\kuashidai\kuashidai_11.jpg" />
     <Content Include="Images\kuashidai\kuashidai_h_130.jpg" />
     <Content Include="Images\logo_150x150.jpg" />
     <Content Include="Images\logo_24x24.jpg" />
@@ -281,6 +317,16 @@
     <Content Include="Images\Mexican\mexican_group_detail.png" />
     <Content Include="Images\Mexican\mexican_group_header.png" />
     <Content Include="Images\mojiezuo\mojiezuo.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_01.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_02.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_03.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_04.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_05.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_06.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_07.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_08.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_09.jpg" />
+    <Content Include="Images\mojiezuo\mojiezuo_10.jpg" />
     <Content Include="Images\mojiezuo\mojiezuo_11.jpg" />
     <Content Include="Images\mojiezuo\mojiezuo_h_130.jpg" />
     <Content Include="Images\movie\movie_1.jpg" />
@@ -312,7 +358,16 @@
     <Content Include="Images\Tiles\Italian_5_310_C.jpg" />
     <Content Include="Images\Vegetables.jpg" />
     <Content Include="Images\wohenmang\wohenmang.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_01.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_02.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_03.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_04.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_05.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_06.jpg" />
     <Content Include="Images\wohenmang\wohenmang_07.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_08.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_09.jpg" />
+    <Content Include="Images\wohenmang\wohenmang_10.jpg" />
     <Content Include="Images\wohenmang\wohenmang_h_130.jpg" />
     <Content Include="Images\xiaobang\xiaobang.jpg" />
     <Content Include="Images\xiaobang\xiaobang_01.jpg" />
@@ -343,7 +398,16 @@
     <Content Include="Images\yehuimei\yehuimei_11.jpg" />
     <Content Include="Images\yehuimei\yehuimei_h_130.jpg" />
     <Content Include="Images\yiranFantasy\yiranFantasy.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_01.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_02.jpg" />
     <Content Include="Images\yiranFantasy\yiranFantasy_03.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_04.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_05.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_06.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_07.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_08.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_09.jpg" />
+    <Content Include="Images\yiranFantasy\yiranFantasy_10.jpg" />
     <Content Include="Images\yiranFantasy\yiranFantasy_h_130.jpg" />
     <Content Include="Images\ziliaoImage.jpg" />
     <Content Include="Sound\Jay\Jay_10.mp3" />
@@ -366,6 +430,7 @@
     <None Include="Images\xiaobang\Thumbs.db" />
     <None Include="Images\yehuimei\Thumbs.db" />
     <None Include="Images\yiranFantasy\Thumbs.db" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
     <PRIResource Include="Strings\zh-CN\Resources.resw">
       <SubType>Designer</SubType>
     </PRIResource>
@@ -388,6 +453,10 @@
     <Page Include="HubPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SearchResultsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SectionPage.xaml">
       <Generator>MSBuild:Compile</Generator>

@@ -210,6 +210,48 @@ namespace hubTemplateExercise
             this.Frame.Navigate(typeof(ItemPage), itemId);
         }
 
+        private void Search_QuerySubmitted(SearchBox sender, SearchBoxQuerySubmittedEventArgs args)
+        {
+            var queryText = args.QueryText;
+            this.Frame.Navigate(typeof(SearchResultsPage), queryText);
+        }
+
+        private void Search_SuggestionsRequested(SearchBox sender, SearchBoxSuggestionsRequestedEventArgs args)
+        {
+            string queryText = args.QueryText;
+            if (!string.IsNullOrWhiteSpace(queryText))
+            {
+                var suggestionCollection = args.Request.SearchSuggestionCollection;
+
+                // result suggestions
+                var searchResults = SampleDataSource.Search(queryText, true);
+                foreach (var result in searchResults.SelectMany(p => p.Items).Take(2))
+                {
+                    var imageUri = new Uri("ms-appx:///" + result.TileImagePath);
+                    var imageSource = Windows.Storage.Streams.RandomAccessStreamReference.CreateFromUri(imageUri);
+                    suggestionCollection.AppendResultSuggestion(result.Title, result.Description, result.UniqueId, imageSource, result.Description);
+                }
+
+                // separator
+                suggestionCollection.AppendSearchSeparator("Suggestions");
+
+                // query suggestions
+                string[] suggestionList ={"米兰的小铁匠", "七里香", "乔克叔叔", "搁浅"};
+
+                foreach (string suggestion in suggestionList)
+                {
+                    if (suggestion.StartsWith(queryText, StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        suggestionCollection.AppendQuerySuggestion(suggestion);
+                    }
+                }
+            }
+        }
+        private void Search_ResultSuggestionChosen(SearchBox sender, SearchBoxResultSuggestionChosenEventArgs args)
+        {
+            var itemId = args.Tag;
+            this.Frame.Navigate(typeof(ItemPage), itemId);
+        }
         void ItemView_GroupClick(object sender, ItemClickEventArgs e)
         {
             // Navigate to the appropriate destination page, configuring the new page

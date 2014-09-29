@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="pulicTime" />
@@ -7,7 +10,6 @@
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="TileImagePath" />
     <RootPropertyPathName Name="GroupHeaderImagePath" />
-    <RootPropertyPathName Name="Rating" />
     <RootPropertyPathName Name="ImagePath" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
@@ -17,9 +19,15 @@
     <RootPropertyPathName Name="weatherInfo" />
     <RootPropertyPathName Name="temp" />
     <RootPropertyPathName Name="ZoomedOutList" />
+    <RootPropertyPathName Name="Filters" />
+    <RootPropertyPathName Name="Results" />
+    <RootPropertyPathName Name="QueryText" />
+    <RootPropertyPathName Name="Description" />
+    <RootPropertyPathName Name="Subtitle" />
+    <RootPropertyPathName Name="ShowFilters" />
+    <RootPropertyPathName Name="Active" />
     <RootPropertyPathName Name="Group" />
     <RootPropertyPathName Name="PreparationTime" />
-    <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="Item" />
     <RootPropertyPathName Name="Ingredients" />
     <RootPropertyPathName Name="Content" />
@@ -38,6 +46,8 @@
       <RootProperty Name="RelativeSource" />
       <RootProperty Name="ElementName" />
       <RootProperty Name="Source" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -84,12 +94,12 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="TextWrapping" />
-      <RootProperty Name="MaxHeight" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="DataContext" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="LineHeight" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
@@ -112,6 +122,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Height" />
       <RootProperty Name="Child" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -129,6 +140,18 @@
       <RootProperty Name="Padding" />
       <RootProperty Name="ZoomedInView" />
       <RootProperty Name="ZoomedOutView" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SearchBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FocusOnKeyboardInput" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="QuerySubmitted" />
+      <RootEvent Name="SuggestionsRequested" />
+      <RootEvent Name="ResultSuggestionChosen" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Hub">
       <RootProperty Name="Header" />
@@ -174,8 +197,8 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="TabIndex" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="Header" />
       <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="Header" />
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
@@ -202,15 +225,40 @@
     <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
       <RootProperty Name="Source" />
     </RootType>
+    <RootType FullName="hubTemplateExercise.Common.BooleanToVisibilityConverter" />
     <RootType FullName="Windows.UI.Xaml.VisualStateManager">
       <RootMethod Name="GetVisualStateGroups" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootMethod Name="GetZIndex" />
+      <RootMethod Name="SetZIndex" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control" />
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="GroupName" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
       <RootProperty Name="States" />
@@ -232,6 +280,7 @@
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
     </RootType>
+    <RootType FullName="hubTemplateExercise.SearchResultsPage" />
     <RootType FullName="hubTemplateExercise.SectionPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="HorizontalScrollBarVisibility" />
@@ -240,10 +289,6 @@
       <RootProperty Name="VerticalScrollMode" />
       <RootProperty Name="ZoomMode" />
       <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="hubTemplateExercise.ItemPage" />
   </Roots.RootTypes>

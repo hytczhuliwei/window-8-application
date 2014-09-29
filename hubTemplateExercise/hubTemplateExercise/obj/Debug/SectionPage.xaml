@@ -67,10 +67,7 @@
                                 <Run Text="{Binding PreparationTime}" />
                                 <Run Text=" minutes" />
                             </TextBlock>
-                            <TextBlock Style="{StaticResource BodyTextBlockStyle}">
-                                <Run Text="排名:" />
-                                <Run Text="{Binding Rating}" />
-                            </TextBlock>
+                         
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
@@ -118,10 +115,7 @@
                                 <Run Text="{Binding PreparationTime}" />
                                 <Run Text=" minutes" />
                             </TextBlock>
-                            <TextBlock Style="{StaticResource BodyTextBlockStyle}">
-                                <Run Text="排行:" />
-                                <Run Text="{Binding Rating}" />
-                            </TextBlock>
+                         
                         </StackPanel>
                     </Grid>
                 </DataTemplate>

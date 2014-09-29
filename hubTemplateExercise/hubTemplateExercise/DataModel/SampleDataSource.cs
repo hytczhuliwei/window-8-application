@@ -203,6 +203,25 @@ namespace hubTemplateExercise.Data
             await _sampleDataSource.GetSampleDataAsync();
             return _sampleDataSource.Groups.SelectMany(group => group.Items).Where(recipe => recipe.Favorite).Take(count);
         }
+        public static IEnumerable<SampleDataGroup> Search(string searchText, bool titleOnly = false)
+        {
+            var query = searchText.ToUpperInvariant();
+            _sampleDataSource.GetSampleDataAsync().Wait();
+            return _sampleDataSource.Groups
+                    .Select(group =>
+                    {
+                        var filteredGroup = new SampleDataGroup(group.UniqueId, group.Title,group.pulicTime, group.Subtitle, group.ImagePath, group.Description, group.GroupImagePath, group.GroupHeaderImagePath);
+
+                        // add recipes that contain search text in title or content
+                        foreach (var item in group.Items
+                                    .Where(item => item.Title.ToUpperInvariant().Contains(query) || (!titleOnly && item.Content.ToUpperInvariant().Contains(query))))
+                        {
+                            filteredGroup.Items.Add(item);
+                        }
+
+                        return filteredGroup;
+                    });
+        }
 
     }
 }

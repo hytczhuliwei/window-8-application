@@ -124,7 +124,7 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "hubTemplateExercise.HubPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -133,10 +133,12 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
             _typeNameTable[5] = "hubTemplateExercise.Common.ObservableDictionary";
             _typeNameTable[6] = "Object";
             _typeNameTable[7] = "String";
-            _typeNameTable[8] = "hubTemplateExercise.SectionPage";
-            _typeNameTable[9] = "hubTemplateExercise.ItemPage";
+            _typeNameTable[8] = "hubTemplateExercise.Common.BooleanToVisibilityConverter";
+            _typeNameTable[9] = "hubTemplateExercise.SearchResultsPage";
+            _typeNameTable[10] = "hubTemplateExercise.SectionPage";
+            _typeNameTable[11] = "hubTemplateExercise.ItemPage";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::hubTemplateExercise.HubPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -145,8 +147,10 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
             _typeTable[5] = typeof(global::hubTemplateExercise.Common.ObservableDictionary);
             _typeTable[6] = typeof(global::System.Object);
             _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::hubTemplateExercise.SectionPage);
-            _typeTable[9] = typeof(global::hubTemplateExercise.ItemPage);
+            _typeTable[8] = typeof(global::hubTemplateExercise.Common.BooleanToVisibilityConverter);
+            _typeTable[9] = typeof(global::hubTemplateExercise.SearchResultsPage);
+            _typeTable[10] = typeof(global::hubTemplateExercise.SectionPage);
+            _typeTable[11] = typeof(global::hubTemplateExercise.ItemPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -183,8 +187,10 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
 
         private object Activate_0_HubPage() { return new global::hubTemplateExercise.HubPage(); }
         private object Activate_5_ObservableDictionary() { return new global::hubTemplateExercise.Common.ObservableDictionary(); }
-        private object Activate_8_SectionPage() { return new global::hubTemplateExercise.SectionPage(); }
-        private object Activate_9_ItemPage() { return new global::hubTemplateExercise.ItemPage(); }
+        private object Activate_8_BooleanToVisibilityConverter() { return new global::hubTemplateExercise.Common.BooleanToVisibilityConverter(); }
+        private object Activate_9_SearchResultsPage() { return new global::hubTemplateExercise.SearchResultsPage(); }
+        private object Activate_10_SectionPage() { return new global::hubTemplateExercise.SectionPage(); }
+        private object Activate_11_ItemPage() { return new global::hubTemplateExercise.ItemPage(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -247,18 +253,34 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
                 xamlType = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  hubTemplateExercise.SectionPage
+            case 8:   //  hubTemplateExercise.Common.BooleanToVisibilityConverter
+                userType = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_8_BooleanToVisibilityConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  hubTemplateExercise.SearchResultsPage
                 userType = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_SectionPage;
+                userType.Activator = Activate_9_SearchResultsPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  hubTemplateExercise.SectionPage
+                userType = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_SectionPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  hubTemplateExercise.ItemPage
+            case 11:   //  hubTemplateExercise.ItemPage
                 userType = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_ItemPage;
+                userType.Activator = Activate_11_ItemPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
@@ -279,22 +301,32 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
             var that = (global::hubTemplateExercise.HubPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_2_SectionPage_NavigationHelper(object instance)
+        private object get_2_SearchResultsPage_DefaultViewModel(object instance)
+        {
+            var that = (global::hubTemplateExercise.SearchResultsPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_3_SearchResultsPage_NavigationHelper(object instance)
+        {
+            var that = (global::hubTemplateExercise.SearchResultsPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_4_SectionPage_NavigationHelper(object instance)
         {
             var that = (global::hubTemplateExercise.SectionPage)instance;
             return that.NavigationHelper;
         }
-        private object get_3_SectionPage_DefaultViewModel(object instance)
+        private object get_5_SectionPage_DefaultViewModel(object instance)
         {
             var that = (global::hubTemplateExercise.SectionPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_4_ItemPage_NavigationHelper(object instance)
+        private object get_6_ItemPage_NavigationHelper(object instance)
         {
             var that = (global::hubTemplateExercise.ItemPage)instance;
             return that.NavigationHelper;
         }
-        private object get_5_ItemPage_DefaultViewModel(object instance)
+        private object get_7_ItemPage_DefaultViewModel(object instance)
         {
             var that = (global::hubTemplateExercise.ItemPage)instance;
             return that.DefaultViewModel;
@@ -319,28 +351,40 @@ namespace hubTemplateExercise.hubTemplateExercise_XamlTypeInfo
                 xamlMember.Getter = get_1_HubPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "hubTemplateExercise.SearchResultsPage.DefaultViewModel":
+                userType = (global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType)GetXamlTypeByName("hubTemplateExercise.SearchResultsPage");
+                xamlMember = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "hubTemplateExercise.Common.ObservableDictionary");
+                xamlMember.Getter = get_2_SearchResultsPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "hubTemplateExercise.SearchResultsPage.NavigationHelper":
+                userType = (global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType)GetXamlTypeByName("hubTemplateExercise.SearchResultsPage");
+                xamlMember = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlMember(this, "NavigationHelper", "hubTemplateExercise.Common.NavigationHelper");
+                xamlMember.Getter = get_3_SearchResultsPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
             case "hubTemplateExercise.SectionPage.NavigationHelper":
                 userType = (global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType)GetXamlTypeByName("hubTemplateExercise.SectionPage");
                 xamlMember = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlMember(this, "NavigationHelper", "hubTemplateExercise.Common.NavigationHelper");
-                xamlMember.Getter = get_2_SectionPage_NavigationHelper;
+                xamlMember.Getter = get_4_SectionPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "hubTemplateExercise.SectionPage.DefaultViewModel":
                 userType = (global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType)GetXamlTypeByName("hubTemplateExercise.SectionPage");
                 xamlMember = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "hubTemplateExercise.Common.ObservableDictionary");
-                xamlMember.Getter = get_3_SectionPage_DefaultViewModel;
+                xamlMember.Getter = get_5_SectionPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "hubTemplateExercise.ItemPage.NavigationHelper":
                 userType = (global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType)GetXamlTypeByName("hubTemplateExercise.ItemPage");
                 xamlMember = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlMember(this, "NavigationHelper", "hubTemplateExercise.Common.NavigationHelper");
-                xamlMember.Getter = get_4_ItemPage_NavigationHelper;
+                xamlMember.Getter = get_6_ItemPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "hubTemplateExercise.ItemPage.DefaultViewModel":
                 userType = (global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlUserType)GetXamlTypeByName("hubTemplateExercise.ItemPage");
                 xamlMember = new global::hubTemplateExercise.hubTemplateExercise_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "hubTemplateExercise.Common.ObservableDictionary");
-                xamlMember.Getter = get_5_ItemPage_DefaultViewModel;
+                xamlMember.Getter = get_7_ItemPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

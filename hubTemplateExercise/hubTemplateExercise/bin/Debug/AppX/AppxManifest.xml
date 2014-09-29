@@ -19,6 +19,7 @@
   </Prerequisites>
   <Resources>
     <Resource Language="ZH-CN" />
+    <Resource Language="EN-US" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="hubTemplateExercise.exe" EntryPoint="hubTemplateExercise.App">
